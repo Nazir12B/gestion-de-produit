@@ -1,13 +1,14 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
+     <!--  <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
+      </strong> -->
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
+        <g-link class="nav__link" to="/login/">Login</g-link>
+      </nav> 
     </header>
     <slot/>
   </div>
