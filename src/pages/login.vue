@@ -36,7 +36,7 @@
   background-color: rgb(2, 2, 85);
   width: 40%;
   margin-top: 3%;
-  margin-left:30%;
+  margin-left:38%;
 }
 .mdp{
   color: black;
