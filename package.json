@@ -9,6 +9,7 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "material-icons": "^1.10.7",
+    "develop": "^1.0.0",
     "materialize-css": "^1.0.0-rc.2"
   }
 }
