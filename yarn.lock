@@ -5686,6 +5686,16 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+material-icons@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.10.7.tgz#5c1d2aa8ac73c7079851fc6925d0043a9ff47b73"
+  integrity sha512-DVW/37okFL2Dkjf/85nModJHNFlPdyOvvLJxRdiqSD1UbuTGez51hQt6f0IeXE6c42ww3YmFw0nsXePbufmNbA==
+
+materialize-css@^1.0.0-rc.2:
+  version "1.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/materialize-css/-/materialize-css-1.0.0-rc.2.tgz#b9e6b18f698c6ef77bb6b628d59147faf131eff5"
+  integrity sha512-FuQmSyq4Qv0ov7A2qXw0E6/jbQzSWx2P1pg2/XQDYTkkSc/GyiFAxu3fw9zgShwuTvyumEiw5jkxQWT9siqMBQ==
+
 md5-file@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/md5-file/-/md5-file-4.0.0.tgz#f3f7ba1e2dd1144d5bf1de698d0e5f44a4409584"
