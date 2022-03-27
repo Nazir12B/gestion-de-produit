@@ -7,10 +7,10 @@
     <form class="col s12">
 
      <div class="row">
-        <div class="input-field col s4">
+       <!--  <div class="input-field col s4">
           <i id="account_circle" class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate" placeholder="Nom du Bénéficiaire">
-      </div>
+      </div> -->
 
      
       <div class="file-field input-field col s4">
@@ -37,20 +37,20 @@
       <table class="highlight striped ">
         <thead>
           <tr>
-              <th>Produits</th>
+           <!--    <th>Produits</th>
               <th id="th_center">Quantité</th>
-              <th id="th_center">Supprimer</th>
+              <th id="th_center">Supprimer</th> -->
           </tr>
         </thead>
         
         <tbody>
-          <tr v-for="(article,index) in articles" :key="index">
+         <!--  <tr v-for="(article,index) in articles" :key="index">
             <td>{{article.name}}</td>
             <td id="th_center">{{article.value}}</td>
             <td id="th_center">
               <i class="material-icons" @click="removeThis(index)">delete</i>
             </td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </div>
@@ -90,7 +90,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Distribution'
+   /*  title: 'Distribution' */
   },
  /*  methods: {
     currentDateTime() {
@@ -106,10 +106,10 @@ export default {
       quantity: '',
       articles : [
       ],
-      options:{
+     /*  options:{
         classes : "",
         dropdownOptions : {}
-      }
+      } */
     }
   },
   methods:{
@@ -128,10 +128,10 @@ export default {
       );
       this.showForm=!this.showForm;
     },
-    mounted(){
+   /*  mounted(){
       var elems = document.querySelectorAll('select');
       this.show();
-    }
+    } */
   }
 }
 </script>
@@ -167,9 +167,9 @@ body {
   border-radius: 10px;
 	
 }
-#account_circle{
+/* #account_circle{
   color: teal;
-}
+} */
 th {
   font-family: 'Times New Roman',"Segoe UI";
   font-size: 20px;
@@ -185,9 +185,9 @@ td {
 	padding: 15px;
 	color:black;
 }
-#td_right{
+/* #td_right{
   text-align: right;
-}
+} */
 .button {
   border: none;
   color: white;
@@ -221,8 +221,8 @@ td {
   background-color:silver;
   color: white;
 }
-select{
+/* select{
   display: inline-block !important;
 
-}
+} */
 </style>

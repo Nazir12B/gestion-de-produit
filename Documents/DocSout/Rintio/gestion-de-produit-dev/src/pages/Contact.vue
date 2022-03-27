@@ -6,7 +6,7 @@
     
     <div class="row">
         <form action="" class="col s12">
-            <div class="col s6"> 
+            <div class="col s5"> 
                 <div>
                      <label for="name"> Nom</label>
                      <input type="text" name="" id="name">
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class="col s6"> 
+            <div class="col s5" style="float: right;"> 
                 <div>
                      <label for="objet"> Objet</label>
                      <input type="text" name="" id="objet">
@@ -35,27 +35,18 @@
                 <div>
                     <p>
                         <label for="comments">Message :</label>
-	                    <textarea id="comments" rows="5" cols="25"></textarea>
+	                    <textarea id="comments" rows="5" cols="25" ></textarea>
                     </p>
-
                 </div>
-
-            </div>
-            
-            
-            <div class="centre">
-                <button @click="reset" class="button button1" style="background-color: silver; color: rgba(98, 109, 210, 1); border: 1px solid rgba(98, 109, 210, 1);">Annuler</button>
-                <button @click="save"  class="button button2" style="background-color: rgba(98, 109, 210, 1); color: white; border: 1px solid silver;"> Envoyer</button>
-            </div>
-
+            </div>   
         </form>
     </div>
 
-     
-
-
-
-
+      <div class="centre">
+                <button @click="reset" class="button button1" style="background-color: silver; color: rgba(98, 109, 210, 1); border: 1px solid rgba(98, 109, 210, 1);">Annuler</button>
+        
+                <button @click="save"  class="button button2" style="background-color: rgba(98, 109, 210, 1); color: white; border: 1px solid silver;"> Envoyer</button>
+     </div>
     </div>
 </template>
 
@@ -68,5 +59,19 @@ export default {
 </script>
 
 <style>
+label{
+    font-size: 1.0rem;
+    color: #000;
+}
+
+textarea{
+    height: 7rem;
+}
+
+.row{
+    margin-top: 25px;
+}
+
+
 
 </style>

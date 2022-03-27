@@ -108,7 +108,7 @@
           <form class="col s12">
             <div v-if="showForm">
               <div class="input-field col s12 m6">
-                <!-- Produit: <input type="text" v-model="product" /> -->
+                
                  <select name="Produit" v-model="product">
                     <option value="" disabled selected>Produits</option>
                     <option value="Produit 1">Produit 1</option>
@@ -118,7 +118,7 @@
               </div>
 
               <div class="input-field col s12 m6">
-                Quantité:<input type="number" v-model="quantity" />
+                <input type="number" placeholder="Quantité" v-model="quantity" style="border: 1px solid white; background-color: white;" />
               </div>
             </div>
           </form>
@@ -145,7 +145,7 @@ export default {
       showForm: false,
       viewForm: false,
       product: "",
-      quantity: 0,
+      quantity: "",
       articles: [
         {
           id: 1,

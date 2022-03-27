@@ -13,7 +13,7 @@
         </div>
 
          <div class="col">
-             <a class='dropdown-trigger btn' data-activates="dropdown" href='#' data-target='dropdown1' @click= "toggle" >Rapport</a>
+             <a class='dropdown-trigger btn' href='#' data-target='dropdown1' @click= "toggle" >Rapport</a>
                 <ul id='dropdown1' class='dropdown-content' v-if="isOpen">
                     <li><a href="#!">Reception</a></li>
                     <li class="divider" tabindex="-1"></li>
@@ -22,7 +22,7 @@
         </div>
 
          <div class="col">
-            <a class="waves-effect waves-light btn-small">Contactez-nous</a>
+            <a class="waves-effect waves-light btn-small">Contactez-nous</a> 
         </div>
         
     </div>
@@ -36,23 +36,27 @@
 export default {
     data(){
         return{
-            isOpen: false,
-
+          /*   isOpen: false, */
+          hover: false,
         }
     },
 
     methods: {
-      toggle () {
+     /*  toggle () {
         this.isOpen = !this.isOpen
         console.log(this.toggle)
 
-      }
+      } */
      /*  toggle: function(locale){
           console.log(locale)
            if(this.isOpen. !== locale) {
         this.isOpen.locale = locale;
       }
     }, */
+
+    toggle: function(){
+
+    } 
 
 }
 }

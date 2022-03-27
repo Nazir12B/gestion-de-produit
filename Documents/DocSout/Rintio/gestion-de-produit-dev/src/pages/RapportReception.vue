@@ -17,23 +17,23 @@
             <form v-if="this.set">
                 <div id="menu" class="row" style="margin: auto;"> 
 
-                    <div class="col s12 m6 l3">     
-                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto;" name="group1" type="radio"/> </div>                
+                    <div class="col s12 m6 l3" style="position: relative;">     
+                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto; left: 0; margin: 5px;" name="group1" type="radio"/> </div>                
                         <div> <span class="black-text text-darken-2" >Journalier</span> </div>                     
                     </div>
 
-                    <div class="col s12 m6 l3"> 
-                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto;" name="group1" type="radio"/></div>
+                    <div class="col s12 m6 l3" style="position: relative;">  
+                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto; left: 0; margin: 5px;" name="group1" type="radio"/></div>
                         <div>  <span class="black-text text-darken-2">Hebdomadaire</span></div>                                   
                     </div>
 
-                    <div class="col s12 m6 l3">
-                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto;" name="group1" type="radio"/></div>
+                    <div class="col s12 m6 l3" style="position: relative;">
+                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto; left: 0;  margin: 5px;" name="group1" type="radio"/></div>
                         <div>  <span class="black-text text-darken-2">Mensuel</span></div>                   
                     </div>
 
-                    <div class="col s12 m6 l3"> 
-                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto;" name="group1" type="radio"/></div>
+                    <div class="col s12 m6 l3" style="position: relative;"> 
+                        <div> <input class="with-gap" style="opacity:1; pointer-events: auto; left: 0;  margin: 5px;" name="group1" type="radio"/></div>
                         <div>  <span class="black-text text-darken-2">Annuel</span></div>                       
                     </div>                   
                 </div>
@@ -143,6 +143,14 @@ th{
     margin-bottom: auto;
     margin-left: 4px;
 }
+
+.row .col{
+    float: right;
+    box-sizing: content-box;
+    padding: 0px 2rem;
+    min-height: 17px;
+}
+
 .ruban {
     text-align: center;
     font-size: "Times New Roman", Times, serif;
